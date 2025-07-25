@@ -1,5 +1,5 @@
 ### PROJECT FLEXBOX 💻
-> **Deploy** `👉` [Ir para página](testing.com)\
+> **Deploy** `👉` [Ir para página](testing.com)
 > 
 > **Repositório** `👉` [Ir para repositório](https://github.com/eupedrobarbosa03/flexbox-page/)
 
