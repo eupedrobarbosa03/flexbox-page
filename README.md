@@ -1,6 +1,5 @@
 ### PROJECT FLEXBOX 💻
-> Deploy -> [Link]()
---
+> Deploy -> [Link](testing.com)\n
 > Repositório -> [link](https://github.com/eupedrobarbosa03/flexbox-page/)
 
 ---
