@@ -1,0 +1,578 @@
+@font-face {
+    font-family: 'Kanit';
+    src: url('../../assets/fonts/Kanit/Kanit-Light.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Kanit';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgba(0, 0, 0, .93);
+}
+
+a {
+    text-decoration: none;
+}
+
+#header_container {
+    padding: 1.5rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+#title_page_header {
+    font-size: 1.7rem;
+    color: #deff22;
+    transition: .7s ease;
+}
+
+#line_style_title {
+    color: #f5f5f5;
+    text-shadow: 1px 1px 5px #deff22;
+    transition: .7 ease;
+}
+
+#title_page_header.effect_color {
+    color: #f5f5f5;
+}
+
+#line_style_title.effect_color {
+    color: #deff22;
+    text-shadow: 1px 1px 5px #f5f5f5;
+}
+
+#navbar_container a {
+    color: #deff22;
+    margin: 0 .5rem;
+    transition: .5s;
+    font-size: .9rem;
+}
+
+#navbar_container a:hover {
+    color: #f5f5f5;
+    border-bottom: 1px solid #deff22;
+}
+
+#button_signUp {
+    border: none;
+    background-color: #deff22;
+    color: #080808;
+    margin: 0 0 0 1.5rem;
+    height: 35px;
+    width: 80px;
+    font-weight: bold;
+    font-size: .9rem;
+    text-transform: uppercase;
+    transition: .5s;
+    cursor: pointer;
+    user-select: none;
+}
+
+#button_signUp:hover {
+    border: 1px solid #deff22;
+    color: #deff22;
+    background-color: transparent;
+}
+
+#main_container {
+    margin-top: 40px;
+}
+
+#section_initial_about_page {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container_about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    user-select: none;
+    padding: 3rem;
+    border-bottom: 1px solid #deff2250;
+}
+
+#initial_welcome {
+    color: #f5f5f5;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+#title_page_about {
+    color: #deff22;
+    font-size: 4rem;
+    text-shadow: 1px 1px 1000px rgba(222, 255, 34, .70);  
+    transition: .5s;  
+}
+
+#mark_brazil {
+    background-color: #deff22;
+    color: #080808;
+    padding: 0 .2rem;
+    font-weight: bold;
+}
+
+#data_about {
+    color: #f5f5f5;
+}
+
+#section_cards_info {
+    padding: 0 4rem;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    flex-wrap: wrap;
+}
+
+.container_card {
+    padding: 1.5rem;
+    border: 1px solid rgba(222, 255, 34, .30);
+    width: 333px;
+    margin: 0 .5rem;
+    text-align: center;
+    min-height: 280px;
+    transition: .5s ease;
+    cursor: pointer;
+    user-select: none;
+    color: #deff22;
+}
+
+.container_card:hover {
+    background-color: #deff22;
+    color: #080808;
+    min-height: 300px;
+}
+
+.container_card:hover > .icon {
+    transition: .5s;
+    color: #080808;
+}
+
+.name_type_card {
+    font-weight: bold;
+}
+
+.icon {
+    color: #deff22;
+    font-size: 3rem;
+}
+
+.container_text {
+    margin-top: 30px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_text p {
+    text-align: center;
+    font-size: .83rem;
+}
+
+.container_sections_about {
+    padding: 0 4rem;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+
+#title_about_flexbox,
+#title_about_flexIA {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #deff22;
+}
+
+#text_about_flexbox,
+#text_about_flexIA {
+    color: rgba(222, 255, 34, .70);
+    text-align: justify;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+#about_responsive {
+    background-color: rgba(222, 255, 34, .90);
+    color: #080808;
+}
+
+#text_about_responsive {
+    text-align: justify;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+#title_about_responsive {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #080808;
+}
+
+#line_separator {
+    margin: 0 auto;
+    width: 40%;
+    border-bottom: 1px solid #deff22;
+    margin-top: 40px;
+    box-shadow: 1px 1px 10px #deff22;
+}
+
+#section_sites_developed_by_flexbox {
+    margin-top: 80px;
+    padding: 0 4rem;
+    min-height: 520px;    
+}
+
+#section_sites_developed_by_flexbox h2 {
+    font-size: 1.5rem;
+    color: #deff22;
+    text-transform: uppercase;
+    font-weight: lighter;
+    text-align: center;
+    text-shadow: 1px 1px 150px #deff22;
+    user-select: none;
+}
+
+#aside_container_pages_developed_by_flexbox {
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    user-select: none;
+}
+
+.card_page_developed_by_flexbox {
+    background-color: rgba(8, 8, 8, .90);
+    height: 120px;
+    width: 200px;
+    transition: .5s;
+    user-select: none;
+}
+
+.card_page_developed_by_flexbox:hover {
+    background-color: rgba(0, 0, 0, .95);
+}
+
+.title_page_developed {
+    text-align: center;
+    padding: .5rem;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: .8rem;
+    color: #f5f5f5;
+    user-select: none;
+}
+
+.container_button_acess {
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_style {
+    background-color: #deff22;
+    color: #080808;
+    height: 40px;
+    width: 50%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+
+.button_style:hover {
+    background-color: transparent;
+    border: 1px solid #deff22;
+    color: #deff22;
+}
+
+#section_message_for_flexbox {
+    margin-top: 200px;
+    padding: 0 4rem;
+    display: flex;
+    margin-bottom: 50px;  
+    min-height: 300px;      
+}
+
+#box_container_message {
+    background-color: rgba(8, 8, 8, .90);
+    flex: 1;
+    padding: .5rem;
+}
+
+#container_message_for_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    flex: 1;
+}
+
+#container_message_for_form h2 {
+    color: #deff22;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 100px #f5f5f5;
+}
+
+#container_message_for_form p {
+    color: #f5f5f5;
+    font-size: .85rem;
+    text-align: center;
+}
+
+#message_for_flexbox {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid rgba(222, 255, 34, 0.05);
+    min-height: 200px;
+    resize: none;
+    color: #deff22;
+    padding: 1rem;
+}
+
+#container_button_send_message {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button_send {
+    background-color: #deff22;
+    color: #080808;
+    height: 40px;
+    width: 80px;
+    padding: .2rem;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#button_send:hover {
+    box-shadow: 1px 1px 300px #deff22;
+}
+
+footer {
+    height: 300px;
+    margin-top: 200px;
+    padding: 0 4rem;
+    background-color: rgba(8, 8, 8, .90);
+    display: flex;
+    gap: 5px;
+    user-select: none;
+    flex-wrap: wrap;
+}
+
+#container_links {
+    flex: 1;
+    display: flex;
+}
+
+#container_link_one {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link_footer {
+    font-size: 1rem;
+    text-decoration: none;
+    height: 25px;
+    margin: 0 .5rem;
+    color: rgba(222, 255, 34, .40);    
+}
+
+.link_footer:visited {
+    color: rgba(222, 255, 34, .40);
+}
+
+.link_footer:hover {
+    border-bottom: 1px solid #f5f5f5;
+}
+
+#name_flexbox_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+#name_flexbox_footer h3 {
+    font-size: 2rem;
+    color: #deff22;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+#icon_menu_mobile {
+    font-size: 2rem;
+    color: #deff22;
+    cursor: pointer;
+    transition: .5s;
+    display: none;
+}
+
+#icon_menu_mobile:hover {
+    color: #f5f5f5;
+}
+
+@media screen and (max-width: 690px) {
+
+    #navbar_container {
+        display: none;
+    }
+
+    #navbar_container.active_menu {
+        position: absolute;
+        display: flex;
+        background-color: rgba(8, 8, 8, .90);
+        top: 80px;
+        right: 50px;
+        left: 0;
+        width: 100%;
+        min-height: 90px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #icon_menu_mobile {
+        display: block;
+    }
+
+    .container_card {
+        margin: 0.5rem 0;
+    }
+
+    .container_sections_about {
+        margin-top: 50px;
+    }
+
+    #about_responsive {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #line_separator {
+        margin-top: 80px;
+        width: 60%;
+    }
+
+    #section_message_for_flexbox {
+        flex-direction: column;
+    }
+
+    #container_message_for_form {
+        order: 1;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #container_message_for_form div > h2 {
+        margin-bottom: 10px;
+        font-size: 1.1rem;
+    }
+
+    #box_container_message {
+        order: 2;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 2rem 0;
+    }
+
+    
+    #name_flexbox_footer {
+        order: 1;
+    }
+
+    #container_links {
+        order: 2;
+    }
+
+    #container_link_one {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    }
+
+    #initial_welcome {
+        font-size: .7rem;
+    }
+
+    #title_page_about {
+        color: #deff22;
+        font-size: 3rem;
+        text-shadow: 1px 1px 1000px rgba(222, 255, 34, .70);  
+        transition: .5s;  
+    }
+
+    #data_about {
+        font-size: .7rem;
+    }
+
+}
+
+@media screen and (max-width: 940px) {
+    .container_card {
+        margin: .5rem;
+    }
+
+    .container_sections_about {
+        margin-top: 90px;
+    }
+    #section_message_for_flexbox {
+        flex-direction: column;
+    }
+
+    #container_message_for_form {
+        order: 1;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #container_message_for_form div > h2 {
+        margin-bottom: 10px;
+        font-size: 1.1rem;
+    }
+
+    #box_container_message {
+        order: 2;
+    }
+
+}
