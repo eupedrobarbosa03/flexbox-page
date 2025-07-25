@@ -25,7 +25,7 @@ Flebox é uma empresa que desenvolve páginas de extrema qualidade de UX/UI e re
 ✅ Complementando sobre a informação acima, o site desenvolvido (fictício) possui uma recomendação de uma parceira da empresa.
 
 
-## Tecnologias para o desenvolvimento da Flexbox 💻
+## Tecnologias para o desenvolvimento da Flexbox Page 💻
 <div align="left">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=fff" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=fff" />
