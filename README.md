@@ -15,13 +15,9 @@ Flebox é uma empresa que desenvolve páginas de extrema qualidade de UX/UI e re
 ## Flexbox Page 🌎
 
 ✅ Desenvolvido com uma paleta de cores: amarelo, preto e branco. O foco maior, amarelo e preto;
-
 ✅ Animações e transições para deixar com uma experiência de usuário elevada;
-
 ✅ A flexbox page é responsiva para qualquer tipo de tela, seja android, tablet, computador e TV;
-
 ✅ Na flexbox page, é possível ver todos os sites desenvolvidos pela **Flexbox**;
-
 ✅ Complementando sobre a informação acima, o site desenvolvido (fictício) possui uma recomendação de uma parceira da empresa (Bianca++ e Bianca--).
 
 
