@@ -22,7 +22,7 @@ Flebox é uma empresa que desenvolve páginas de extrema qualidade de UX/UI e re
 
 ✅ Na flexbox page, é possível ver todos os sites desenvolvidos pela **Flexbox**;
 
-✅ Complementando sobre a informação acima, o site desenvolvido (fictício) possui uma recomendação de uma parceira da empresa.
+✅ Complementando sobre a informação acima, o site desenvolvido (fictício) possui uma recomendação de uma parceira da empresa (Bianca++ e Bianca--).
 
 
 ## Tecnologias para o desenvolvimento da Flexbox Page 💻
